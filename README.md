@@ -31,9 +31,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Evaluation Metrics
     - Fit the model again but with 100% of the data
     - Forecast real future values
-
-- Create Model with Gas dataset to make predictions in Gas Rig Counts
-
+- Use Gas dataset to predict Gas rig count
 
 
 3.2 Data Modeling - VARMA model
@@ -50,3 +48,15 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Forecast real future values
 
 - Use gas dataset to make predictions on Gas Rig Count
+
+
+3.3 Data Modeling - SARIMA model
+- Import dataset and resample to monthly data
+- Use oil dataset to predict oil rig count:
+    - Find what hyperparameters to be used in the model (p,d,q)
+    - Train/test split
+    - Create ARIMA model and fit with data
+    - Generate Forecast and compare against Test set
+    - Evaluation Measures
+    - Refit the model with 100% of data and make REAL Forecasting
+ - Create ARIMA model with Gas dataframe to predict Gas Rig Count
