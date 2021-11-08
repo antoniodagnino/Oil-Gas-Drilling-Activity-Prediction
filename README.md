@@ -34,6 +34,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
 - Use Gas dataset to predict Gas rig count
 
 
+
 3.2 Data Modeling - VARMA model
 - Load datasets and resample to monthly frequency
 - Use oil dataset to make predictions on Oil Rig Count:
@@ -46,8 +47,8 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Evaluation Metrics
     - Fit the model again but with 100% of the data
     - Forecast real future values
-
 - Use gas dataset to make predictions on Gas Rig Count
+
 
 
 3.3 Data Modeling - SARIMA model
