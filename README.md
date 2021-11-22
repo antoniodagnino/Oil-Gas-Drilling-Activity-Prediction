@@ -51,7 +51,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
 
 
 
-3.3 Data Modeling - SARIMA model
+3.3 Data Modeling - ARIMA model
 - Import dataset and resample to monthly data
 - Use oil dataset to predict oil rig count:
     - Find what hyperparameters to be used in the model (p,d,q)
@@ -61,3 +61,15 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Evaluation Measures
     - Refit the model with 100% of data and make REAL Forecasting
  - Create ARIMA model with Gas dataframe to predict Gas Rig Count
+
+
+
+3.4 Data Modeling - Holt-Winters
+- Import dataset and resample to monthly data
+- Use oil dataset to predict oil rig count:
+    - Train/test split
+    - Create Exponential Smoothing model and fit with data
+    - Generate Forecast and compare against Test set
+    - Evaluation Measures
+    - Refit the model with 100% of data and make REAL Forecasting   
+ - Create Exponential Smoothing model with Gas dataframe to predict Gas Rig Count
