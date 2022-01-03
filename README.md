@@ -73,3 +73,20 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Evaluation Measures
     - Refit the model with 100% of data and make REAL Forecasting   
  - Create Exponential Smoothing model with Gas dataframe to predict Gas Rig Count
+
+
+3.5 Data Modeling - Recurrent Neural Network (RNN)
+- Load datasets and resample to monthly frequency
+- Use oil dataset to make predictions in oil rig count variable:
+- Tune Data: To adjust re-train models and check performances
+- ETS Decomposition: Identify Trend, Seasonality and Error
+- Train/test split
+- Scale and Transform data
+- TimeSeries Generator
+- Create RNN for OIL DF
+- EarlyStopping
+- Evaluation Batch
+- Inverse Transformed data
+- Plot Test Set Vs Predictions
+- Evaluation Metrics (Pending)
+- Create Model with Gas dataset to make predictions in Gas Rig Counts
