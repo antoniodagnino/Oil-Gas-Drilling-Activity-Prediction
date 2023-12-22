@@ -3,14 +3,14 @@ Drilling Activity Prediction: Oil and Gas operations are dramatically affected b
 
 The Project is divided into the following Jupyter Notebook Files:
 
-1. Obtain Data from EIA
+## 1. Obtain Data from EIA
 - Obtain data from EIA (Energy Information Administration API)
 - Build DataFrame with data obtained from EIA
 
 ![EIA dataset](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/8f2c8786-d2d6-4e52-8459-4e3bf8971f15)
 
 
-2. Exploratory Data Analysis
+## 2. Exploratory Data Analysis
 - Data Overview
 - Reindex dataframe
 - Oil Variables Feature Engineering
@@ -20,9 +20,9 @@ The Project is divided into the following Jupyter Notebook Files:
 Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** separately
 
 
-3. Data Modeling
+## 3. Data Modeling
 
-3.1 Data Modeling - VAR model
+**3.1 Data Modeling - VAR model**
 - Load datasets and resample to monthly frequency
 - Use oil dataset to make predictions in oil rig count variable:
     - Train/test split
@@ -40,7 +40,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
 
 
 
-3.2 Data Modeling - VARMA model
+**3.2 Data Modeling - VARMA model**
 - Load datasets and resample to monthly frequency
 - Use oil dataset to make predictions on Oil Rig Count:
     - Get second order differencing data frame (stationary features dataframe) 
@@ -57,7 +57,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
 ![VARMA](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/beda195e-7bff-4038-91cd-df928e5e3a8e)
 
 
-3.3 Data Modeling - ARIMA model
+**3.3 Data Modeling - ARIMA model**
 - Import dataset and resample to monthly data
 - Use oil dataset to predict oil rig count:
     - Find what hyperparameters to be used in the model (p,d,q)
@@ -71,7 +71,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
 ![ARIMA](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/431e3206-974e-4057-b914-9327e14dcf12)
 
 
-3.4 Data Modeling - Holt-Winters
+**3.4 Data Modeling - Holt-Winters**
 - Import dataset and resample to monthly data
 - Use oil dataset to predict oil rig count:
     - Train/test split
@@ -86,7 +86,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
 
 
 
-3.5 Data Modeling - Recurrent Neural Network (RNN)
+**3.5 Data Modeling - Recurrent Neural Network (RNN)**
 - Load datasets and resample to monthly frequency
 - Use oil dataset to make predictions in oil rig count variable:
 - Tune Data: To adjust re-train models and check performances
