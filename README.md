@@ -7,6 +7,8 @@ The Project is divided into the following Jupyter Notebook Files:
 - Obtain data from EIA (Energy Information Administration API)
 - Build DataFrame with data obtained from EIA
 
+![EIA dataset](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/8f2c8786-d2d6-4e52-8459-4e3bf8971f15)
+
 
 2. Exploratory Data Analysis
 - Data Overview
