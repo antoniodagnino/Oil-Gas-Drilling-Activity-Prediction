@@ -20,6 +20,10 @@ The Project is divided into the following Jupyter Notebook Files:
 Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** separately
 
 
+![Rig Count](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/2af18ea1-55a9-4c25-8dca-d87dbcbb18fc)
+
+
+
 ## 3. Data Modeling
 
 **3.1 Data Modeling - VAR model**
