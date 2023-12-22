@@ -33,6 +33,9 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Forecast real future values
 - Use Gas dataset to predict Gas rig count
 
+  ![VAR](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/7c105e8a-5863-4fab-86a5-94439be09333)
+
+
 
 
 3.2 Data Modeling - VARMA model
@@ -49,6 +52,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Forecast real future values
 - Use gas dataset to make predictions on Gas Rig Count
 
+![VARMA](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/beda195e-7bff-4038-91cd-df928e5e3a8e)
 
 
 3.3 Data Modeling - ARIMA model
@@ -62,6 +66,7 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Refit the model with 100% of data and make REAL Forecasting
  - Create ARIMA model with Gas dataframe to predict Gas Rig Count
 
+![ARIMA](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/431e3206-974e-4057-b914-9327e14dcf12)
 
 
 3.4 Data Modeling - Holt-Winters
@@ -73,6 +78,10 @@ Note: Variables we want to Predict: **Oil Rig Count** and **Gas Rig Count** sepa
     - Evaluation Measures
     - Refit the model with 100% of data and make REAL Forecasting   
  - Create Exponential Smoothing model with Gas dataframe to predict Gas Rig Count
+
+
+![Holt Winters](https://github.com/antoniodagnino/Oil-Gas-Drilling-Activity-Prediction/assets/76269794/27ebb41f-0a85-42b9-8bcf-bee2a10517ff)
+
 
 
 3.5 Data Modeling - Recurrent Neural Network (RNN)
