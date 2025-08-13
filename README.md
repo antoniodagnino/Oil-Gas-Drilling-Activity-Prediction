@@ -1,6 +1,8 @@
 # Oil-Gas-Drilling-Activity-Prediction
 Drilling Activity Prediction: Oil and Gas operations are dramatically affected by supply, demand and several other factors that compromise the operational planning of resources. To overcome this challenge, predictive analytics could be applied to forecast rotary rig count inside United States using time-series data.
 
+See Full Report [`here`](./Drilling%20Activity%20Prediction%20-%20Report.pdf)
+
 The Project is divided into the following Jupyter Notebook Files:
 
 ## [`1. Obtain Data from EIA`](./Obtain%20Data%20from%20EIA.ipynb)
