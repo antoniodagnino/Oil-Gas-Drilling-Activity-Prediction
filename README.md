@@ -3,7 +3,7 @@ Drilling Activity Prediction: Oil and Gas operations are dramatically affected b
 
 The Project is divided into the following Jupyter Notebook Files:
 
-## [`1. Obtain Data from EIA`](../Obtain%20Data%20from%20EIA.ipynb)
+## [`1. Obtain Data from EIA`](./Obtain%20Data%20from%20EIA.ipynb)
 - Obtain data from EIA (Energy Information Administration API)
 - Build DataFrame with data obtained from EIA
 
